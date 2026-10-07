@@ -16,7 +16,7 @@
     "@webkrafters/data-distillery": "^0.1.1",
     "@webkrafters/get-property": "^2.0.0",
     "@webkrafters/path-dotize": "0.0.2",
-    "@webkrafters/react-eagleeye": "^1.0.4",
+    "@webkrafters/react-eagleeye": "^1.0.5",
     "@webkrafters/timed-map": "^2.0.0",
     "lodash.clonedeep": "^4.5.0",
     "lodash.clonedeepwith": "^4.5.0",
@@ -39,10 +39,12 @@
   "name": "react-eagleeye-app",
   "private": true,
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
     "clean-build": "rm -rf dist && npm run build",
-    "preview": "vite preview"
+    "dev": "npm un -S @webkrafters/react-eagleeye && npm i -S @webkrafters/react-eagleeye && npm run start -- --force",
+    "preview": "vite preview",
+    "qdev": "npm un -S @webkrafters/react-eagleeye && npm i -S ../react-eagleeye.js/webkrafters-react-eagleeye-1.1.0-alpha.20.tgz && npm run start -- --force",
+    "start": "vite"
   },
   "version": "1.0.1"
 }
