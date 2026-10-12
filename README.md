@@ -1,2 +1,2 @@
 # react-eagleeye-app
-A unified demo applications for the React Eagle Eye package (npm: @webkrafters/react-eagleeye).
+A unified demo application for the React Eagle Eye package (npm: @webkrafters/react-eagleeye).
